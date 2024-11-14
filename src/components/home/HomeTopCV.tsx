@@ -38,14 +38,17 @@ const applicants = [
     {
         name: "Nguyễn Lê Hoàng Lâm",
         job: "Truyền thông đa phương tiện",
+        image: "https://res.cloudinary.com/dti7dy6rm/image/upload/v1731596552/fbe7b211cd03765d2f12_pgfbjl.jpg",
     },
     {
         name: "Nguyễn Thị Trà My",
         job: "Truyền thông đa phương tiện",
+        image: "https://res.cloudinary.com/dti7dy6rm/image/upload/v1731596555/7eef86aff8bd43e31aac_anvbou.jpg",
     },
     {
         name: "Phạm Công Thắng",
         job: "Truyền thông đa phương tiện",
+        image: "https://res.cloudinary.com/dti7dy6rm/image/upload/v1731596552/606570f50ce7b7b9eef6_elobvc.jpg",
     },
 ];
 
