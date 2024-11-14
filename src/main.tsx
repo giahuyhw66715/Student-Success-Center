@@ -4,10 +4,10 @@ import App from "./App.tsx";
 import { NextUIProvider } from "@nextui-org/react";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/grid";
-import "swiper/css/pagination";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/grid";
+// import "swiper/css/pagination";
 import { ClerkProvider } from "@clerk/clerk-react";
 
 const queryClient = new QueryClient();

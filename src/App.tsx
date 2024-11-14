@@ -8,12 +8,8 @@ import CreateCVPage from "./pages/CreateCVPage";
 import OrganizationPage from "./pages/OrganizationPage";
 import LoginPage from "./pages/LoginPage";
 import JobDetailPage from "./components/job/JobDetailPage";
-import { useEffect } from "react";
 
 const App = () => {
-    useEffect(() => {
-        document.title = "Student Success Center";
-    }, []);
     return (
         <Routes>
             <Route path="/" element={<MainLayout />}>

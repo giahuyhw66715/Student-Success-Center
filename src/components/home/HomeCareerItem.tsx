@@ -1,7 +1,12 @@
 import { Image } from "@nextui-org/react";
-import { ICareer } from "../../types";
 
-const HomeCareerItem = ({ career }: { career: ICareer }) => {
+type TCareer = {
+    title: string;
+    image: string;
+    available: number;
+};
+
+const HomeCareerItem = ({ career }: { career: TCareer }) => {
     return (
         <div className="p-5 flex items-center flex-col border border-primary rounded-md cursor-pointer">
             <Image
