@@ -1,5 +1,5 @@
 {
-    "homepage": "https://giahuyhw66715.github.io/Student-Success-Center/",
+    "homepage": "https://giahuyhw66715.github.io/Student-Success-Center",
     "name": "student-success-center",
     "private": true,
     "version": "0.0.0",
@@ -31,6 +31,7 @@
     },
     "devDependencies": {
         "@eslint/js": "^9.13.0",
+        "@types/node": "^22.9.0",
         "@types/react": "^18.3.12",
         "@types/react-dom": "^18.3.1",
         "@vitejs/plugin-react": "^4.3.3",
