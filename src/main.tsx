@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import { NextUIProvider } from "@nextui-org/react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 // import "swiper/css";
 // import "swiper/css/navigation";
@@ -19,12 +19,12 @@ if (!PUBLISHABLE_KEY) {
 
 createRoot(document.getElementById("root")!).render(
     <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <HashRouter basename={import.meta.env.BASE_URL}>
             <QueryClientProvider client={queryClient}>
                 <NextUIProvider>
                     <App />
                 </NextUIProvider>
             </QueryClientProvider>
-        </BrowserRouter>
+        </HashRouter>
     </ClerkProvider>
 );
