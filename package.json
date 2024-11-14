@@ -1,13 +1,10 @@
 {
-    "homepage": "https://giahuyhw66715.github.io/Student-Success-Center/",
     "name": "student-success-center",
     "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",
         "build": "tsc -b && vite build",
         "lint": "eslint .",
         "preview": "vite preview"
