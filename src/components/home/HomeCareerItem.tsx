@@ -3,7 +3,7 @@ import { Image } from "@nextui-org/react";
 type TCareer = {
     title: string;
     image: string;
-    available: number;
+    available: string;
 };
 
 const HomeCareerItem = ({ career }: { career: TCareer }) => {
