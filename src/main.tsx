@@ -19,7 +19,7 @@ if (!PUBLISHABLE_KEY) {
 
 createRoot(document.getElementById("root")!).render(
     <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
-        <HashRouter basename={import.meta.env.BASE_URL}>
+        <HashRouter>
             <QueryClientProvider client={queryClient}>
                 <NextUIProvider>
                     <App />
